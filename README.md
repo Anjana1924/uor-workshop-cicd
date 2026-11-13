@@ -109,7 +109,7 @@ Open **your fork → Actions → newest run → build**. Expand npm ci, npm test
 Open `tests/utils.test.js` in your editor. Find `assert.equal(add(2, 2), 4);` and replace that line with:
 
 ```js
-assert.equal(add(2, 2), 5); // Originally 4. Five is deliberately wrong.
+assert.equal(add(2, 2), 4); // Originally 4. Five is deliberately wrong.
 ```
 
 ```sh
